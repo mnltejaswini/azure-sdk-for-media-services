@@ -23,7 +23,7 @@ namespace Microsoft.WindowsAzure.MediaServices.Client
     /// <summary>
     /// Represents a collection of <see cref="ILocator"/>.
     /// </summary>
-    public class LocatorBaseCollection : CloudBaseCollection<ILocator>
+    public class LocatorBaseCollection : CloudBaseCollection<ILocator>, ILocatorCollection
     {
         /// <summary>
         /// The entity set name for locators.

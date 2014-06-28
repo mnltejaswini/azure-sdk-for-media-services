@@ -114,6 +114,9 @@
     <Compile Include="BlobTransfer\MemoryManagerFactory.cs" />
     <Compile Include="BlobTransfer\MemoryManager.cs" />
     <Compile Include="BlobTransfer\ServicePointModifier.cs" />
+    <Compile Include="Collections\IAssetCollection.cs" />
+    <Compile Include="Collections\IAssetFileCollection.cs" />
+    <Compile Include="Collections\ILocatorCollection.cs" />
     <Compile Include="DownloadProgressEventArgs.cs" />
     <Compile Include="Entities\AccessPermissions.cs" />
     <Compile Include="Collections\AccessPolicyBaseCollection.cs">

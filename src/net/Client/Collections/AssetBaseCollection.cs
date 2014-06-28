@@ -25,7 +25,7 @@ namespace Microsoft.WindowsAzure.MediaServices.Client
     /// <summary>
     /// Represents the base of all asset collections.
     /// </summary>
-    public abstract class AssetBaseCollection : BaseCollection<IAsset>
+    public abstract class AssetBaseCollection : BaseCollection<IAsset>, IAssetCollection
     {
         protected AssetBaseCollection(MediaContextBase context) : base(context)
         {
